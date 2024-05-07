@@ -72,7 +72,7 @@
       "email": "quliyeva@gmail.com",
       "title": "Germany",
       "desctiption": "",
-      "isRead": false,
+      "isRead": true,
       "description": "Germany, officially the Federal Republic of Germany, is a country in the western region of Central Europe. It is the second-most populous country in Europe after Russia, and the most populous member state of the European Union. Germany lies between the Baltic and North Sea to the north and the Alps to the south."
     },
     {
@@ -81,7 +81,7 @@
       "email": "laman@gmail.com",
       "title": "Canada",
       "desctiption": "",
-      "isRead": true,
+      "isRead": false,
       "description": "It is the second largest country in the world, but it has only one-half of one percent of the world's population. Canada features black-blue lakes, numerous rivers, majestic western mountains, rolling central plains, and forested eastern valleys."
     }
   ]

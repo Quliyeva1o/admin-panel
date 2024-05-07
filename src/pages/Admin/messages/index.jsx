@@ -12,16 +12,18 @@ const MessagesAdmin = () => {
         controller.getOne(endpoints.messages, id).then((res) => {
             setMessage(res)
         })
-
     }
 
     useEffect(() => {
-        console.log(message);
-        console.log(messageId);
         controller.patch(endpoints.messages, messageId, { ...message, "isRead": (!message.isRead) })
-    }, [message])
-    console.log(message);
 
+    }, [message])
+    const handleDelete = (id) => {
+        controller.delete(endpoints.messages, id).then((res) => {
+            setMessage(res)
+        })
+        setMessages(messages.filter((x) => x.id !== id));
+         }
     const columns = [
         {
             title: 'Name',
@@ -45,7 +47,8 @@ const MessagesAdmin = () => {
             key: 'description',
             render: (_, record) => (
                 <span style={{ color: record.isRead ? "red" : "blue" }}>{record.description}</span>
-            ),},
+            ),
+        },
 
         {
             title: 'Action',
@@ -53,7 +56,7 @@ const MessagesAdmin = () => {
             render: (_, record) => (
                 <Space size="middle">
                     <Button onClick={() => { handleRead(record.id) }}>read</Button>
-                    <a>Delete</a>
+                    <Button onClick={() => { handleDelete(record.id) }}>del</Button>
                 </Space>
             ),
         },
