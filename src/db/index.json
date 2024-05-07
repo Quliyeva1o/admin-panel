@@ -1,0 +1,88 @@
+{
+  "countries": [
+    {
+      "id": "2",
+      "name": "Azerbaijan",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/800px-Flag_of_Azerbaijan.svg.png",
+      "description": "Azerbaijan, the nation and former Soviet republic, is bounded by the Caspian Sea and Caucasus Mountains, which span Asia and Europe. Its capital, Baku, is famed for its medieval walled Inner City. Within the Inner City lies the Palace of the Shirvanshahs, a royal retreat dating to the 15th century, and the centuries-old stone Maiden Tower, which dominates the city skyline.",
+      "population": "100350",
+      "capital": "Baku"
+    },
+    {
+      "id": "1",
+      "name": "Mexico",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png",
+      "description": "Mexico, officially the United Mexican States, is a country in the southern portion of North America. It covers 1,972,550 km², making it the world's 13th-largest country by area; with a population of almost 130 million, it is the 10th-most-populous country and the most populous Spanish-speaking country.",
+      "population": 127500000,
+      "capital": "Mexico"
+    },
+    {
+      "id": "3",
+      "name": "Colombia",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/800px-Flag_of_Colombia.svg.png",
+      "description": "Colombia, officially the Republic of Colombia, is a country primarily located in South America with insular regions in North America.",
+      "population": 51870000,
+      "capital": "Bogotá"
+    },
+    {
+      "id": "4",
+      "name": "Germany",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png",
+      "description": "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank.",
+      "population": 83870000,
+      "capital": "Berlin"
+    },
+    {
+      "id": "e3bc",
+      "name": "Turkey",
+      "population": "84980000",
+      "description": "The national flag of Turkey, officially the Turkish flag, is a red flag featuring a white star and crescent from its emblem which was the prominent symbol of the Ottoman Empire, and in contemporary",
+      "capital": "Ankara",
+      "flagImg": "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg"
+    },
+    {
+      "id": "67f7",
+      "name": "dd",
+      "population": "333",
+      "description": "dd",
+      "capital": "dd",
+      "flagImg": "dd"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "elnurxo",
+      "email": "elnur@gmail.com",
+      "password": "Admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "nicat557",
+      "email": "nijat@gmail.com",
+      "password": "Nijat123",
+      "role": "client"
+    }
+  ],
+  "messages": [
+    {
+      "id": "a039",
+      "fullName": "Rena Quliyeva",
+      "email": "quliyeva@gmail.com",
+      "title": "Germany",
+      "desctiption": "",
+      "isRead": false,
+      "description": "Germany, officially the Federal Republic of Germany, is a country in the western region of Central Europe. It is the second-most populous country in Europe after Russia, and the most populous member state of the European Union. Germany lies between the Baltic and North Sea to the north and the Alps to the south."
+    },
+    {
+      "id": "bdf9",
+      "fullName": "laman",
+      "email": "laman@gmail.com",
+      "title": "Canada",
+      "desctiption": "",
+      "isRead": true,
+      "description": "It is the second largest country in the world, but it has only one-half of one percent of the world's population. Canada features black-blue lakes, numerous rivers, majestic western mountains, rolling central plains, and forested eastern valleys."
+    }
+  ]
+}
